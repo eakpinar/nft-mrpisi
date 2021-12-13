@@ -1,3 +1,60 @@
 .nft {
-    background-color: rgb(214, 160, 160);
+    background-color: white;
+    display: flex;
+
+    .left{
+        flex:0.4;
+        overflow: hidden;
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            background-color: crimson;
+            border-radius: 50%;
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+            float: right;
+            img{
+                height: 90%;
+            }
+        }
+    }
+    .right{
+        flex:0.5;
+        position: relative;
+        .wrapper{
+            width: 90%;
+            // height: 80%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                span{
+                    font-size: inherit;
+                    color: crimson;
+                }
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 30pxF;
+            }
+        }
+    }
 }
