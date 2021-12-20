@@ -1,3 +1,4 @@
+import { discordchannel, opensea } from "../../Data/links"
 import "./menu.scss"
 
 export default function Menu({menuOpen, setMenuOpen}) {
@@ -24,12 +25,12 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 </li>
                 <li>
                     <div className="itemcontainer">
-                        <button onClick={event =>window.location.href="https://discord.gg/jbqwt8vA"} className="discord">Discord Channel</button>
+                        <button onClick={event =>window.location.href=discordchannel} className="discord">Discord Channel</button>
                     </div>
                 </li>
                 <li>
                     <div className="itemcontainer">
-                        <button onClick={event =>window.location.href="https://opensea.io/collection/polarbears-nft-1"} className="opensea">Buy a pisi</button>
+                        <button onClick={event =>window.location.href=opensea} className="opensea">Buy a pisi</button>
                     </div>
                 </li>
             </ul>
