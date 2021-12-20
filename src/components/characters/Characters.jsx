@@ -6,7 +6,8 @@ import {
     germanyCharacters,
     turkeyCharacters,
     russiaCharacters,
-    othersCharacters
+    othersCharacters,
+    americaCharacters
 } from "../../Data/data"
 
 export default function Characters() {
@@ -20,16 +21,20 @@ export default function Characters() {
             title: "China"
         },
         {
+            id: "russia",
+            title: "Russia"
+        },
+        {
+            id: "america",
+            title: "America"
+        },
+        {
             id: "germany",
             title: "Germany"
         },
         {
             id: "turkey",
             title: "Turkey"
-        },
-        {
-            id: "russia",
-            title: "Russia"
         },
         {
             id: "others",
@@ -50,6 +55,9 @@ export default function Characters() {
                 break;
             case "germany":
                 setData(germanyCharacters);
+                break;
+            case "america":
+                setData(americaCharacters);
                 break;
             case "others":
                 setData(othersCharacters);

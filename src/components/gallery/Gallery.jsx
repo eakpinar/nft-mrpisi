@@ -22,7 +22,7 @@ export default function Gallery() {
                             <div className="left">
                                 <div className="leftContainer">
                                     <div className="imgContainer">
-                                        <img src={d.icon} alt="" />
+                                        <img src={d.icon === "world" ? "./assets/world.png" : "https://purecatamphetamine.github.io/country-flag-icons/3x2/" + d.icon + ".svg"} alt="" />
                                     </div>
                                     <h2>{d.title}</h2>
                                     <p>

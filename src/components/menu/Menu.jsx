@@ -19,6 +19,9 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#gallery">Gallery</a>
                 </li>
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#testimonials">Testimonials</a>
+                </li>
                 <li>
                     <div className="itemcontainer">
                         <button onClick={event =>window.location.href="https://discord.gg/jbqwt8vA"} className="discord">Discord Channel</button>

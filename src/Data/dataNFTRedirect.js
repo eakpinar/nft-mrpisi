@@ -1,38 +1,47 @@
 export const data = [
     {
         id: "1",
-        icon: "./assets/pisinft.png",
+        icon: "RU",
         title: "Russian Pisi",
         desc: 
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        img: "./assets/pisinft.png",
+        img: "./assets/russia/russia-drink1-empty.jpg",
         url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/58153668186279866187460526624926841103445858695223685662876627616509485645825"
     },
-    {
-        id: "2",
-        icon: "./assets/pisinft.png",
-        title: "Germany Pisi",
-        desc: 
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        img: "./assets/pisinft.png",
-        url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/58153668186279866187460526624926841103445858695223685662876627616509485645825"
-    },
+    // {
+    //     id: "2",
+    //     icon: "DE",
+    //     title: "Germany Pisi",
+    //     desc: 
+    //         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    //     img: "./assets/pisinft.png",
+    //     url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/58153668186279866187460526624926841103445858695223685662876627616509485645825"
+    // },
     {
         id: "3",
-        icon: "./assets/pisinft.png",
-        title: "Turkey Pisi",
+        icon: "US",
+        title: "America Pisi",
         desc: 
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        img: "./assets/pisinft.png",
+        img: "./assets/america/america-jackdaniels-empty.jpg",
         url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/58153668186279866187460526624926841103445858695223685662876627616509485645825"
     },
     {
         id: "4",
-        icon: "./assets/pisinft.png",
+        icon: "CN",
         title: "China Pisi",
         desc: 
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        img: "./assets/pisinft.png",
+        img: "./assets/china/china-drink1-empty.jpg",
+        url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/58153668186279866187460526624926841103445858695223685662876627616509485645825"
+    },
+    {
+        id: "5",
+        icon: "world",
+        title: "World Pisi",
+        desc: 
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        img: "./assets/china/china-drink1-empty.jpg",
         url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/58153668186279866187460526624926841103445858695223685662876627616509485645825"
     }
 ]
