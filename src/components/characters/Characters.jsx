@@ -73,7 +73,8 @@ export default function Characters() {
             <ul>
                 {list.map(item=>(
                     <CharacterList 
-                        id={item.id} 
+                        key={item.id}
+                        id={item.id}
                         title={item.title} 
                         active={selected === item.id} 
                         setSelected={setSelected} 
@@ -82,7 +83,7 @@ export default function Characters() {
             </ul>
             <div className="container">
                 {data.map(d=> (
-                    <div className="item">
+                    <div key={d.id} className="item">
                         <img src={d.img}
                         alt="" 
                     />

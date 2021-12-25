@@ -17,7 +17,7 @@ export const team = [
         featured: true
     },
     {
-        id:1,
+        id:3,
         name:"Pisi Boncuk",
         title:"Marketing Manager",
         img:"assets/pisinft.png",

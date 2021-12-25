@@ -5,7 +5,7 @@ export default function CharacterList({id, title, active, setSelected}) {
     
     return (
         <li 
-            id={id} 
+            key={id} 
             className={active ? "characterList active" : "characterList"} 
             onClick={()=> setSelected(id)}
         >
