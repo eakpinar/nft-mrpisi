@@ -17,10 +17,25 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections" onClick={()=>setMenuOpen(false)}>
         <Info />
+        <div id="ocean1" className="ocean">
+          <div className="wave"></div>
+        </div>
         <Nft />
+        <div id="ocean2" className="ocean">
+          <div className="wave"></div>
+        </div>
         <Creators />
+        <div id="ocean3" className="ocean">
+          <div className="wave"></div>
+        </div>
         <Characters />
+        <div id="ocean4" className="ocean">
+          <div className="wave"></div>
+        </div>
         <Gallery />
+        <div id="ocean5" className="ocean">
+          <div className="wave"></div>
+        </div>
         <Testimonials />
       </div>
     </div>
