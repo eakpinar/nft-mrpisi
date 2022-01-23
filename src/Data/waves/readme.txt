@@ -1,0 +1,1 @@
+use https://www.softr.io/tools/svg-wave-generator
