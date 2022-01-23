@@ -1,1 +1,1 @@
-use https://www.softr.io/tools/svg-wave-generator
+use https://svgwave.in/
