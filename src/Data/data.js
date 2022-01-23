@@ -52,43 +52,48 @@ export const chinaCharacters = [
 export const germanyCharacters = [
     {
         id: 1,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink1 Empty",
+        img: "assets/germany/germany-drink1-empty.jpg"
     },
     {
         id: 2,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink1 Audi",
+        img: "assets/germany/germany-drink1-audi.jpg"
     },
     {
         id: 3,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink1 Flag",
+        img: "assets/germany/germany-drink1-flag.jpg"
     },
     {
         id: 4,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink2 Bayern",
+        img: "assets/germany/germany-drink2-bayern.jpg"
     },
     {
         id: 5,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink2 Bvb",
+        img: "assets/germany/germany-drink2-bvb.jpg"
     },
     {
         id: 6,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink2 Flag",
+        img: "assets/germany/germany-drink2-flag.jpg"
     },
     {
         id: 7,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink2 Mercedes",
+        img: "assets/germany/germany-drink2-mercedes.jpg"
     },
     {
         id: 8,
-        title: "Germany Beer Pee",
-        img: "assets/germany-beer-pee.png"
+        title: "Germany Drink2 OKtoberfest",
+        img: "assets/germany/germany-drink2-oKtoberfest.jpg"
+    },
+    {
+        id: 9,
+        title: "Germany Drink2 Bmw",
+        img: "assets/germany/germany-drink2-bmw.jpg"
     }
 ];
 
