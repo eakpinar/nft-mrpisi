@@ -33,9 +33,13 @@
                 font-size: 18px;
                 margin-right: 5px;
 
+                @include mobile {
+                    display: none;
+                }
+
                 .discord{
                     background-color: red;
-                    padding: 10px 7px 10px 7px;
+                    padding: 10px 7px 10px 7px; 
                     border: 0px;
                     color: white;
                     font-size: 24px;

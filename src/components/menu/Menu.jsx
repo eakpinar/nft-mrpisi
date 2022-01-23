@@ -25,12 +25,12 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 </li>
                 <li>
                     <div className="itemcontainer">
-                        <button onClick={event =>window.location.href=discordchannel} className="discord">Discord Channel</button>
+                        <a href={discordchannel} target="_blank" className="discord" rel="noreferrer">Discord Channel</a>
                     </div>
                 </li>
                 <li>
                     <div className="itemcontainer">
-                        <button onClick={event =>window.location.href=opensea} className="opensea">Buy a pisi</button>
+                        <a href={opensea} target="_blank" className="opensea" rel="noreferrer">Buy a pisi</a>
                     </div>
                 </li>
             </ul>

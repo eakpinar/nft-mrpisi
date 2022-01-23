@@ -10,10 +10,10 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 <div className="left">
                     <a href="#info" className="logo">Mr. Pisi</a>
                     <div className="itemcontainer">
-                        <button onClick={event =>window.location.href=discordchannel} className="discord">Discord Channel</button>
+                        <a href={discordchannel} target="_blank" rel="noreferrer" className="discord">Discord Channel</a>
                     </div>
                     <div className="itemcontainer">
-                        <button onClick={event =>window.location.href=opensea} className="opensea">Buy a pisi</button>
+                        <a href={opensea} target="_blank" rel="noreferrer" className="opensea">Buy a pisi</a>
                     </div>
                 </div>
                 <div className="right">
