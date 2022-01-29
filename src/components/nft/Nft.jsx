@@ -21,7 +21,8 @@ export default function Nft() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h1>F.A.Q. <span ref={textRef}></span> Nft?</h1>
+                    <h1>F.A.Q. <span ref={textRef}></span><br/>
+                     Nft?</h1>
                     <h2>
                     NFT is a non fungible token, and you can buy and trade these tokens. You can also keep it in your own wallet if you want! 
                     </h2>
