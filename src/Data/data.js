@@ -87,8 +87,8 @@ export const germanyCharacters = [
     },
     {
         id: 8,
-        title: "Germany Drink2 OKtoberfest",
-        img: "assets/germany/germany-drink2-oKtoberfest.jpg"
+        title: "Germany Drink2 Oktoberfest",
+        img: "assets/germany/germany-drink2-oktoberfest.jpg"
     },
     {
         id: 9,
