@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nft-mrpisi/static/css/main.66de0101.chunk.css",
+    "main.css": "/nft-mrpisi/static/css/main.fc089d31.chunk.css",
     "main.js": "/nft-mrpisi/static/js/main.798f6911.chunk.js",
     "main.js.map": "/nft-mrpisi/static/js/main.798f6911.chunk.js.map",
     "runtime-main.js": "/nft-mrpisi/static/js/runtime-main.e8d602c8.js",
@@ -8,14 +8,14 @@
     "static/js/2.f69b4f40.chunk.js": "/nft-mrpisi/static/js/2.f69b4f40.chunk.js",
     "static/js/2.f69b4f40.chunk.js.map": "/nft-mrpisi/static/js/2.f69b4f40.chunk.js.map",
     "index.html": "/nft-mrpisi/index.html",
-    "static/css/main.66de0101.chunk.css.map": "/nft-mrpisi/static/css/main.66de0101.chunk.css.map",
+    "static/css/main.fc089d31.chunk.css.map": "/nft-mrpisi/static/css/main.fc089d31.chunk.css.map",
     "static/js/2.f69b4f40.chunk.js.LICENSE.txt": "/nft-mrpisi/static/js/2.f69b4f40.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/nft-mrpisi/static/media/wave5.db52fd73.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8d602c8.js",
     "static/js/2.f69b4f40.chunk.js",
-    "static/css/main.66de0101.chunk.css",
+    "static/css/main.fc089d31.chunk.css",
     "static/js/main.798f6911.chunk.js"
   ]
 }
