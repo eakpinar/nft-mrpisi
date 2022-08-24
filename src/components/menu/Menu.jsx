@@ -23,6 +23,9 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#testimonials">Testimonials</a>
                 </li>
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#galleryRandom">Random Gallery</a>
+                </li>
                 <li>
                     <div className="itemcontainer">
                         <a href={discordchannel} target="_blank" className="discord" rel="noreferrer">Discord Channel</a>
