@@ -9,6 +9,7 @@ import {
     othersCharacters,
     americaCharacters
 } from "../../Data/data"
+import Img from "./Images/Img";
 
 export default function Characters() {
 
@@ -84,9 +85,7 @@ export default function Characters() {
             <div className="container">
                 {data.map(d=> (
                     <div key={d.id} className="item">
-                        <img src={d.img}
-                        alt="" 
-                    />
+                        <Img src={d.img} />
                     <h3>{d.title}</h3>
                 </div>
                 ))}

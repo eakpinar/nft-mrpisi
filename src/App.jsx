@@ -8,6 +8,9 @@ import { useState } from "react"
 import Menu from "./components/menu/Menu"
 import Gallery from "./components/gallery/Gallery"
 import Testimonials from "./components/testimonials/Testimonials"
+import Ocean from "./components/ocean/Ocean"
+import GalleryRandom from "./components/galleryRandom/galleryRandom"
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -17,26 +20,18 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections" onClick={()=>setMenuOpen(false)}>
         <Info />
-        <div id="ocean1" className="ocean">
-          <div className="wave"></div>
-        </div>
+        <Ocean oceanId={1} />
         <Nft />
-        <div id="ocean2" className="ocean">
-          <div className="wave"></div>
-        </div>
+        <Ocean oceanId={2} />
         <Creators />
-        <div id="ocean3" className="ocean">
-          <div className="wave"></div>
-        </div>
+        <Ocean oceanId={3} />
         <Characters />
-        <div id="ocean4" className="ocean">
-          <div className="wave"></div>
-        </div>
+        <Ocean oceanId={4} />
         <Gallery />
-        <div id="ocean5" className="ocean">
-          <div className="wave"></div>
-        </div>
+        <Ocean oceanId={5} />
         <Testimonials />
+        <Ocean oceanId={5} />
+        <GalleryRandom />
       </div>
     </div>
   );

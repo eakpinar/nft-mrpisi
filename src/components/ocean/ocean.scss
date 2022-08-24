@@ -1,0 +1,53 @@
+#ocean1 {
+    background-color: lightpink;
+    > .wave {
+        background: url(../../Data/waves/wave.svg) repeat-x; 
+    }
+}
+#ocean2 {
+    background-color: #9CEB87;
+    > .wave {
+        background: url(../../Data/waves/wave2.svg) repeat-x;
+    }
+}
+#ocean3 {
+    background-color: white;
+    > .wave {
+        background: url(../../Data/waves/wave3.svg) repeat-x;
+    }
+}
+#ocean4 {
+    background-color: #AD84C9;
+    > .wave {
+        background: url(../../Data/waves/wave4.svg) repeat-x;
+    }
+}
+#ocean5 {
+    background-color: crimson;
+    > .wave {
+        background: url(../../Data/waves/wave5.svg) repeat-x;
+    }
+}
+.wave {
+    // position: absolute;
+    height: 90px;
+    animation: wave 20s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+}
+
+@keyframes wave {
+    0% {
+    margin-left: 0;
+    }
+    100% {
+    margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+    0%, 100% {
+    transform: translate3d(0,-25px,0);
+    }
+    50% {
+    transform: translate3d(0,5px,0);
+    }
+}
