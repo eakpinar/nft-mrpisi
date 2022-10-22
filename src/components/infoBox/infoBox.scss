@@ -1,0 +1,4 @@
+.info-box:active, .info-box:focus {
+    transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out,
+      height 0.25s ease-in-out;
+}

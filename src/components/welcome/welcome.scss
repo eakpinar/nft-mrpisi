@@ -1,0 +1,64 @@
+.welcome {
+  background-color: #90c7d7;
+  .distribution-map {
+    position: relative;
+    width: 100%;
+    // padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow-x: inherit;
+  }
+  .distribution-map > img {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: inherit;
+  }
+
+  .distribution-map .clickthemap {
+    width: 20.2%;
+    left: 71.6%;
+    position: absolute;
+    top: 0%;
+  }
+  
+  .distribution-map .drinking {
+    width: 29%;
+    left: 69%;
+    position: absolute;
+    top: 21%;
+  }
+
+  .distribution-map .black-board {
+    cursor: pointer;
+    outline: none;
+    z-index: 0;
+    position: absolute;
+    // opacity: 0.8;
+    transform: translate(-50%, -50%);
+    // background: url("../../../public/assets/mapsmall.png");
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: center;
+    border: 0px solid #7fcff7;
+    overflow: visible; 
+    transform: translate(-50%, -50%);
+    -moz-transition: opacity 0.25s ease-in-out 0.25s,
+      width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s,
+      z-index 0.25s ease-in-out 0.25s;
+    -o-transition: opacity 0.25s ease-in-out 0.25s,
+      width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s,
+      z-index 0.25s ease-in-out 0.25s;
+    -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out,
+      height 0.25s ease-in-out, z-index 0.25s ease-in-out, top 0.25s ease 0s;
+    transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
+    transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s,
+      height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s, top 0.25s ease 0s;
+  }
+
+  .distribution-map .black-board .world{
+    overflow: inherit;
+  }
+  
+}

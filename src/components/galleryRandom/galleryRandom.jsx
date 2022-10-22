@@ -19,12 +19,12 @@ while (i--) {
             const options = [];
             for (let i = 0; i <= 8; i++) {
               options.push(
-                <tr key={i}>
+                <tr key={i+"tr"}>
                   {(() => {
                     const optionsTD = [];
                     for (let j = 1; j <= 20; j++) {
-                      options.push(
-                        <td key={j}>
+                      optionsTD.push(
+                        <td key={i * 10 + j + "td"}>
                           <img
                             src={"assets/nft-karma/0" + ranNums[i * 10 + j] + ".jpg"}
                             width="50"

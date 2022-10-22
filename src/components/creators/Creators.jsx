@@ -13,9 +13,9 @@ export default function Creators() {
                             <img src={d.img} alt="" className="user"/>
                             <img src={d.icon} alt="" className="right"/>
                         </div>
-                        <div className="center">
+                        {/* <div className="center">
                             {d.desc}
-                        </div>
+                        </div> */}
                         <div className="bottom">
                             <h3>{d.name}</h3>
                             <h4>{d.title}</h4>

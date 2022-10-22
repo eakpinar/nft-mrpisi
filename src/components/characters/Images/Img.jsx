@@ -6,11 +6,10 @@ import "./img.scss"
 
 export default function Img({ src }) {
 
-    const [loaded, setLoaded] = useState(false)
+    const [loaded, setLoaded] = useState(true)
     const ref = useRef()
     const onLoad = () => {
-        console.log("true")
-        debugger
+        // console.log("true")
         setLoaded(true);
     }
 
@@ -19,13 +18,13 @@ export default function Img({ src }) {
             onLoad()
         }
         else {
-            console.log("false")
+            // console.log("false")
         }
     })
 
     return (
         <div className="item">
-            {loaded ? ( <img ref={ref} onLoad={onLoad} src={src} alt="" /> ) : (<h1>yukleniyior</h1>) }
+            {loaded ? ( <img ref={ref} onLoad={onLoad} src={src} alt="" /> ) : (<h1>Loading..</h1>) }
         </div>
     )
 }
