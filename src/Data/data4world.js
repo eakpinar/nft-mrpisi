@@ -8,23 +8,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/usa/china-drink1-empty.jpg",
+        img: "assets/nfts/USA/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/usa/china-drink1-mirror.jpg",
+        img: "assets/nfts/USA/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/usa/china-drink1-pinpon.jpg",
+        img: "assets/nfts/USA/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/usa/china-drink2-ipman.jpg",
+        img: "assets/nfts/USA/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/usa/china-drink2-karate.jpg",
+        img: "assets/nfts/USA/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/USA/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/USA/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/USA/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/USA/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/USA/p_10.png",
       },
     ],
   },
@@ -37,23 +57,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/australia/china-drink1-empty.jpg",
+        img: "assets/nfts/Australia/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/australia/china-drink1-mirror.jpg",
+        img: "assets/nfts/Australia/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/australia/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Australia/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/australia/china-drink2-ipman.jpg",
+        img: "assets/nfts/Australia/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/australia/china-drink2-karate.jpg",
+        img: "assets/nfts/Australia/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Australia/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Australia/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Australia/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Australia/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Australia/p_10.png",
       },
     ],
   },
@@ -66,23 +106,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/belgium/china-drink1-empty.jpg",
+        img: "assets/nfts/Belgium/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/belgium/china-drink1-mirror.jpg",
+        img: "assets/nfts/Belgium/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/belgium/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Belgium/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/belgium/china-drink2-ipman.jpg",
+        img: "assets/nfts/Belgium/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/belgium/china-drink2-karate.jpg",
+        img: "assets/nfts/Belgium/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Belgium/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Belgium/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Belgium/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Belgium/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Belgium/p_10.png",
       },
     ],
   },
@@ -95,52 +155,92 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/china/china-drink1-empty.jpg",
+        img: "assets/nfts/China/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/china/china-drink1-mirror.jpg",
+        img: "assets/nfts/China/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/china/china-drink1-pinpon.jpg",
+        img: "assets/nfts/China/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/china/china-drink2-ipman.jpg",
+        img: "assets/nfts/China/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/china/china-drink2-karate.jpg",
+        img: "assets/nfts/China/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/China/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/China/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/China/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/China/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/China/p_10.png",
       },
     ],
   },
   {
     country: "Philippines",
     location: {
-      top: "58%",
+      top: "59.4%",
       left: "79.2%",
     },
     list: [
       {
         id: 1,
-        img: "assets/nfts/philippines/china-drink1-empty.jpg",
+        img: "assets/nfts/Philippines/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/philippines/china-drink1-mirror.jpg",
+        img: "assets/nfts/Philippines/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/philippines/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Philippines/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/philippines/china-drink2-ipman.jpg",
+        img: "assets/nfts/Philippines/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/philippines/china-drink2-karate.jpg",
+        img: "assets/nfts/Philippines/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Philippines/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Philippines/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Philippines/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Philippines/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Philippines/p_10.png",
       },
     ],
   },
@@ -153,28 +253,48 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/france/china-drink1-empty.jpg",
+        img: "assets/nfts/France/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/france/china-drink1-mirror.jpg",
+        img: "assets/nfts/France/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/france/china-drink1-pinpon.jpg",
+        img: "assets/nfts/France/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/france/china-drink2-ipman.jpg",
+        img: "assets/nfts/France/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/france/china-drink2-karate.jpg",
+        img: "assets/nfts/France/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/France/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/France/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/France/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/France/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/France/p_10.png",
       },
     ],
   },
   {
-    country: "South Korea",
+    country: "SouthKorea",
     location: {
       top: "50.5%",
       left: "80.9%",
@@ -182,23 +302,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/southkorea/china-drink1-empty.jpg",
+        img: "assets/nfts/SouthKorea/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/southkorea/china-drink1-mirror.jpg",
+        img: "assets/nfts/SouthKorea/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/southkorea/china-drink1-pinpon.jpg",
+        img: "assets/nfts/SouthKorea/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/southkorea/china-drink2-ipman.jpg",
+        img: "assets/nfts/SouthKorea/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/southkorea/china-drink2-karate.jpg",
+        img: "assets/nfts/SouthKorea/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/SouthKorea/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/SouthKorea/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/SouthKorea/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/SouthKorea/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/SouthKorea/p_10.png",
       },
     ],
   },
@@ -211,23 +351,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/georgia/china-drink1-empty.jpg",
+        img: "assets/nfts/Georgia/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/georgia/china-drink1-mirror.jpg",
+        img: "assets/nfts/Georgia/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/georgia/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Georgia/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/georgia/china-drink2-ipman.jpg",
+        img: "assets/nfts/Georgia/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/georgia/china-drink2-karate.jpg",
+        img: "assets/nfts/Georgia/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Georgia/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Georgia/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Georgia/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Georgia/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Georgia/p_10.png",
       },
     ],
   },
@@ -240,23 +400,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/netherlands/china-drink1-empty.jpg",
+        img: "assets/nfts/Netherlands/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/netherlands/china-drink1-mirror.jpg",
+        img: "assets/nfts/Netherlands/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/netherlands/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Netherlands/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/netherlands/china-drink2-ipman.jpg",
+        img: "assets/nfts/Netherlands/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/netherlands/china-drink2-karate.jpg",
+        img: "assets/nfts/Netherlands/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Netherlands/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Netherlands/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Netherlands/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Netherlands/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Netherlands/p_10.png",
       },
     ],
   },
@@ -269,23 +449,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/israel/china-drink1-empty.jpg",
+        img: "assets/nfts/Israel/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/israel/china-drink1-mirror.jpg",
+        img: "assets/nfts/Israel/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/israel/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Israel/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/israel/china-drink2-ipman.jpg",
+        img: "assets/nfts/Israel/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/israel/china-drink2-karate.jpg",
+        img: "assets/nfts/Israel/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Israel/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Israel/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Israel/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Israel/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Israel/p_10.png",
       },
     ],
   },
@@ -298,23 +498,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/italy/china-drink1-empty.jpg",
+        img: "assets/nfts/Italy/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/italy/china-drink1-mirror.jpg",
+        img: "assets/nfts/Italy/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/italy/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Italy/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/italy/china-drink2-ipman.jpg",
+        img: "assets/nfts/Italy/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/italy/china-drink2-karate.jpg",
+        img: "assets/nfts/Italy/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Italy/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Italy/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Italy/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Italy/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Italy/p_10.png",
       },
     ],
   },
@@ -327,23 +547,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/canada/china-drink1-empty.jpg",
+        img: "assets/nfts/Canada/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/canada/china-drink1-mirror.jpg",
+        img: "assets/nfts/Canada/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/canada/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Canada/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/canada/china-drink2-ipman.jpg",
+        img: "assets/nfts/Canada/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/canada/china-drink2-karate.jpg",
+        img: "assets/nfts/Canada/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Canada/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Canada/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Canada/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Canada/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Canada/p_10.png",
       },
     ],
   },
@@ -356,23 +596,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/norway/china-drink1-empty.jpg",
+        img: "assets/nfts/Norway/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/norway/china-drink1-mirror.jpg",
+        img: "assets/nfts/Norway/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/norway/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Norway/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/norway/china-drink2-ipman.jpg",
+        img: "assets/nfts/Norway/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/norway/china-drink2-karate.jpg",
+        img: "assets/nfts/Norway/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Norway/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Norway/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Norway/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Norway/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Norway/p_10.png",
       },
     ],
   },
@@ -385,23 +645,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/turkey/china-drink1-empty.jpg",
+        img: "assets/nfts/Turkey/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/turkey/china-drink1-mirror.jpg",
+        img: "assets/nfts/Turkey/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/turkey/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Turkey/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/turkey/china-drink2-ipman.jpg",
+        img: "assets/nfts/Turkey/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/turkey/china-drink2-karate.jpg",
+        img: "assets/nfts/Turkey/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Turkey/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Turkey/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Turkey/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Turkey/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Turkey/p_10.png",
       },
     ],
   },
@@ -414,23 +694,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/germany/china-drink1-empty.jpg",
+        img: "assets/nfts/Germany/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/germany/china-drink1-mirror.jpg",
+        img: "assets/nfts/Germany/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/germany/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Germany/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/germany/china-drink2-ipman.jpg",
+        img: "assets/nfts/Germany/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/germany/china-drink2-karate.jpg",
+        img: "assets/nfts/Germany/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Germany/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Germany/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Germany/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Germany/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Germany/p_10.png",
       },
     ],
   },
@@ -443,23 +743,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/russia/china-drink1-empty.jpg",
+        img: "assets/nfts/Russia/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/russia/china-drink1-mirror.jpg",
+        img: "assets/nfts/Russia/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/russia/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Russia/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/russia/china-drink2-ipman.jpg",
+        img: "assets/nfts/Russia/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/russia/china-drink2-karate.jpg",
+        img: "assets/nfts/Russia/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Russia/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Russia/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Russia/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Russia/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Russia/p_10.png",
       },
     ],
   },
@@ -472,23 +792,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/nigeria/china-drink1-empty.jpg",
+        img: "assets/nfts/Nigeria/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/nigeria/china-drink1-mirror.jpg",
+        img: "assets/nfts/Nigeria/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/nigeria/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Nigeria/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/nigeria/china-drink2-ipman.jpg",
+        img: "assets/nfts/Nigeria/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/nigeria/china-drink2-karate.jpg",
+        img: "assets/nfts/Nigeria/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Nigeria/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Nigeria/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Nigeria/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Nigeria/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Nigeria/p_10.png",
       },
     ],
   },
@@ -501,23 +841,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/brazil/china-drink1-empty.jpg",
+        img: "assets/nfts/Brazil/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/brazil/china-drink1-mirror.jpg",
+        img: "assets/nfts/Brazil/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/brazil/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Brazil/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/brazil/china-drink2-ipman.jpg",
+        img: "assets/nfts/Brazil/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/brazil/china-drink2-karate.jpg",
+        img: "assets/nfts/Brazil/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Brazil/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Brazil/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Brazil/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Brazil/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Brazil/p_10.png",
       },
     ],
   },
@@ -530,23 +890,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/singapore/china-drink1-empty.jpg",
+        img: "assets/nfts/Singapore/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/singapore/china-drink1-mirror.jpg",
+        img: "assets/nfts/Singapore/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/singapore/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Singapore/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/singapore/china-drink2-ipman.jpg",
+        img: "assets/nfts/Singapore/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/singapore/china-drink2-karate.jpg",
+        img: "assets/nfts/Singapore/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Singapore/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Singapore/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Singapore/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Singapore/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Singapore/p_10.png",
       },
     ],
   },
@@ -559,23 +939,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/mexican/china-drink1-empty.jpg",
+        img: "assets/nfts/Mexican/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/mexican/china-drink1-mirror.jpg",
+        img: "assets/nfts/Mexican/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/mexican/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Mexican/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/mexican/china-drink2-ipman.jpg",
+        img: "assets/nfts/Mexican/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/mexican/china-drink2-karate.jpg",
+        img: "assets/nfts/Mexican/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Mexican/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Mexican/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Mexican/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Mexican/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Mexican/p_10.png",
       },
     ],
   },
@@ -588,23 +988,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/india/china-drink1-empty.jpg",
+        img: "assets/nfts/India/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/india/china-drink1-mirror.jpg",
+        img: "assets/nfts/India/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/india/china-drink1-pinpon.jpg",
+        img: "assets/nfts/India/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/india/china-drink2-ipman.jpg",
+        img: "assets/nfts/India/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/india/china-drink2-karate.jpg",
+        img: "assets/nfts/India/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/India/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/India/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/India/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/India/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/India/p_10.png",
       },
     ],
   },
@@ -617,23 +1037,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/greece/china-drink1-empty.jpg",
+        img: "assets/nfts/Greece/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/greece/china-drink1-mirror.jpg",
+        img: "assets/nfts/Greece/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/greece/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Greece/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/greece/china-drink2-ipman.jpg",
+        img: "assets/nfts/Greece/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/greece/china-drink2-karate.jpg",
+        img: "assets/nfts/Greece/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Greece/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Greece/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Greece/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Greece/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Greece/p_10.png",
       },
     ],
   },
@@ -646,23 +1086,43 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/japan/china-drink1-empty.jpg",
+        img: "assets/nfts/Japan/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/japan/china-drink1-mirror.jpg",
+        img: "assets/nfts/Japan/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/japan/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Japan/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/japan/china-drink2-ipman.jpg",
+        img: "assets/nfts/Japan/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/japan/china-drink2-karate.jpg",
+        img: "assets/nfts/Japan/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Japan/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Japan/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Japan/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Japan/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Japan/p_10.png",
       },
     ],
   },
@@ -675,23 +1135,141 @@ export const worldList = [
     list: [
       {
         id: 1,
-        img: "assets/nfts/spain/china-drink1-empty.jpg",
+        img: "assets/nfts/Spain/p_1.png",
       },
       {
         id: 2,
-        img: "assets/nfts/spain/china-drink1-mirror.jpg",
+        img: "assets/nfts/Spain/p_2.png",
       },
       {
         id: 3,
-        img: "assets/nfts/spain/china-drink1-pinpon.jpg",
+        img: "assets/nfts/Spain/p_3.png",
       },
       {
         id: 4,
-        img: "assets/nfts/spain/china-drink2-ipman.jpg",
+        img: "assets/nfts/Spain/p_4.png",
       },
       {
         id: 5,
-        img: "assets/nfts/spain/china-drink2-karate.jpg",
+        img: "assets/nfts/Spain/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Spain/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Spain/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Spain/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Spain/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Spain/p_10.png",
+      },
+    ],
+  },
+  {
+    country: "Taiwan",
+    location: {
+      top: "56.4%",
+      left: "79%",
+    },
+    list: [
+      {
+        id: 1,
+        img: "assets/nfts/Taiwan/p_1.png",
+      },
+      {
+        id: 2,
+        img: "assets/nfts/Taiwan/p_2.png",
+      },
+      {
+        id: 3,
+        img: "assets/nfts/Taiwan/p_3.png",
+      },
+      {
+        id: 4,
+        img: "assets/nfts/Taiwan/p_4.png",
+      },
+      {
+        id: 5,
+        img: "assets/nfts/Taiwan/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Taiwan/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Taiwan/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Taiwan/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Taiwan/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Taiwan/p_10.png",
+      },
+    ],
+  },
+  {
+    country: "Ukraine",
+    location: {
+      top: "46%",
+      left: "55%",
+    },
+    list: [
+      {
+        id: 1,
+        img: "assets/nfts/Ukraine/p_1.png",
+      },
+      {
+        id: 2,
+        img: "assets/nfts/Ukraine/p_2.png",
+      },
+      {
+        id: 3,
+        img: "assets/nfts/Ukraine/p_3.png",
+      },
+      {
+        id: 4,
+        img: "assets/nfts/Ukraine/p_4.png",
+      },
+      {
+        id: 5,
+        img: "assets/nfts/Ukraine/p_5.png",
+      },
+      {
+        id: 6,
+        img: "assets/nfts/Ukraine/p_6.png",
+      },
+      {
+        id: 7,
+        img: "assets/nfts/Ukraine/p_7.png",
+      },
+      {
+        id: 8,
+        img: "assets/nfts/Ukraine/p_8.png",
+      },
+      {
+        id: 9,
+        img: "assets/nfts/Ukraine/p_9.png",
+      },
+      {
+        id: 10,
+        img: "assets/nfts/Ukraine/p_10.png",
       },
     ],
   },
