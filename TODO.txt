@@ -1,0 +1,17 @@
+TODO List
++1. World map country images
+    Random
+    loading eklenmesi gerekir
+
+3. resize showcase box
+    alttaki yazi silinecek
+    goruntu guzellestirilecek
+    yeni guncel gorseller koyulacak
+
+4. Road Map 
+    New design with icon, text
+    Sol alt gorsel, sag kalan yazi, bazilarinda sagda da gorsel olacak
+
+2. Opensea, Twitter and Instagram logos
+    Redirect to real adresses
+    
