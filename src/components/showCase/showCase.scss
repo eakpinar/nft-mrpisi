@@ -1,55 +1,80 @@
 .showCase {
-    min-height: 100vh;
-    width: 100vw;
-    background-color: rgb(32, 32, 32);
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    position: relative;
+  --green: #59c3c3;
+  --offwhite: #ebebeb;
+  --red: #e65a5e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 16px;
+  font-family: sans-serif;
+  color: var(--offwhite);
+  background: linear-gradient(-45deg, #4c468b, #05031a);
+
+  h1 {
+    font-size: 50px;
+  }
+
+  /* Looper styles */
+  @keyframes slideAnim {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .looper {
+    width: 100%;
     overflow: hidden;
+  }
 
-    .kpbQki {
-        white-space: nowrap;
-        box-sizing: content-box;
-        margin: 2rem 0px;
-        display: flex;
-        animation: 0s linear 0s infinite normal none running KgHCs;
-    }
+  .looper__innerList {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+  }
 
-    .dQUbgY {
-        white-space: nowrap;
-        box-sizing: content-box;
-        margin: 2rem 0px;
-        display: flex;
-        animation: 0s linear 0s infinite reverse none running KgHCs;
-    }
-    @keyframes KgHCs {
-        0%{
-            transform: translateX(100%);
-        }
-        100%{
-            transform: translateX(-100%);        
-        }
-    }
+  .looper__innerList[data-animate="true"] .looper__listInstance {
+    animation: slideAnim linear infinite;
+  }
 
-    .iQoEbp {
-        width: 15rem;
-        margin: 0px 1rem;
-        background-color: rgb(255, 255, 255);
-        border-radius: 20px;
-        cursor: pointer;
-        img {
-            width: inherit;
-            height: auto;
-        }
-    }
-}
-.showCase > :first-child, .showCase > :nth-last-child(2) {
-    animation-duration: 20s;
-}
-.showCase > :last-child, .showCase > :nth-last-child(3) {
-    animation-duration: 20s;
+  .looper__listInstance {
+    display: flex;
+    width: max-content;
+
+    animation: none;
+  }
+
+  .description {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .contentBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin: 3px;
+    // padding: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 16px;
+  }
+  .contentBlock--one {
+    width: 120px;
+    background: rgba(255, 255, 255, 0.05);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .contentBlock--one:last-of-type {
+    color: var(--green);
+    margin-right: 36px;
+  }
+  .contentBlock--two {
+    color: var(--green);
+    font-size: 48px;
+    background: rgba(255, 255, 255, 0.05);
+  }
 }
