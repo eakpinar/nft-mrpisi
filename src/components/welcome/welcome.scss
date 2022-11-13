@@ -30,8 +30,42 @@
     top: 21%;
   }
 
-  .distribution-map .black-board {
+  .distribution-map .social {
+    filter: drop-shadow(0 0 0.75rem #d6501b);
+  }
+  
+  .distribution-map .social:active, .distribution-map .social:hover {
+    filter: drop-shadow(0 0 0.75rem #4dfe00);
     cursor: pointer;
+  }
+  .distribution-map .social:active {
+    filter: drop-shadow(0 0 0.75rem black);
+  }
+  
+
+  .distribution-map .instagramLogo {
+    width: 5%;
+    left: 2%;
+    position: absolute;
+    top: 1.1%;
+  }
+
+  .distribution-map .openseaLogo {
+    width: 5%;
+    left: 7%;
+    position: absolute;
+    top: 1.35%;
+  }
+
+  .distribution-map .twitterLogo {
+    width: 5%;
+    left: 12%;
+    position: absolute;
+    top: 1.6%;
+  }
+
+  .distribution-map .black-board {
+    // cursor: pointer;
     outline: none;
     z-index: 0;
     position: absolute;

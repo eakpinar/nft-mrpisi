@@ -1,6 +1,7 @@
 import "./welcome.scss";
 import { useState } from "react";
 import { InfoBox } from "../infoBox/InfoBox";
+import { instagram, opensea, twitter } from "../../Data/links";
 
 export default function Welcome() {
   const [top, setTop] = useState("30.5%");
@@ -47,6 +48,27 @@ export default function Welcome() {
           src="assets/drinking.gif"
           alt=""
           className="drinking"
+        />
+        <img
+          id="instagram"
+          src="assets/social/instagram.png"
+          alt=""
+          className="social instagramLogo"
+          onClick={()=> window.open(instagram, "_blank")}
+        />
+        <img
+          id="twitter"
+          src="assets/social/twitter.png"
+          alt=""
+          className="social twitterLogo"
+          onClick={()=> window.open(twitter, " _blank")}
+        />
+        <img
+          id="opensea"
+          src="assets/social/opensea.png"
+          alt=""
+          className="social openseaLogo"
+          onClick={()=> window.open(opensea, "_blank")}
         />
         <div
           className="black-board"

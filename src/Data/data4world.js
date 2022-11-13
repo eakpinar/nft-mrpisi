@@ -1,6 +1,7 @@
 export const worldList = [
   {
     country: "USA",
+    racial: "American",
     location: {
       top: "49%",
       left: "26.4%",
@@ -50,6 +51,7 @@ export const worldList = [
   },
   {
     country: "Australia",
+    racial: "Australian",
     location: {
       top: "77%",
       left: "87%",
@@ -99,6 +101,7 @@ export const worldList = [
   },
   {
     country: "Belgium",
+    racial: "Belgian",
     location: {
       top: "44.5%",
       left: "48.7%",
@@ -148,6 +151,7 @@ export const worldList = [
   },
   {
     country: "China",
+    racial: "Chinese",
     location: {
       top: "49.6%",
       left: "77.6%",
@@ -197,6 +201,7 @@ export const worldList = [
   },
   {
     country: "Philippines",
+    racial: "Filipino",
     location: {
       top: "59.4%",
       left: "79.2%",
@@ -246,6 +251,7 @@ export const worldList = [
   },
   {
     country: "France",
+    racial: "French",
     location: {
       top: "45.7%",
       left: "47.5%",
@@ -295,6 +301,7 @@ export const worldList = [
   },
   {
     country: "SouthKorea",
+    racial: "South Korean",
     location: {
       top: "50.5%",
       left: "80.9%",
@@ -344,6 +351,7 @@ export const worldList = [
   },
   {
     country: "Georgia",
+    racial: "Georgian",
     location: {
       top: "47.5%",
       left: "59%",
@@ -393,6 +401,7 @@ export const worldList = [
   },
   {
     country: "Netherlands",
+    racial: "Dutch",
     location: {
       top: "43%",
       left: "49%",
@@ -442,6 +451,7 @@ export const worldList = [
   },
   {
     country: "Israel",
+    racial: "Israeli",
     location: {
       top: "52.6%",
       left: "56.6%",
@@ -491,6 +501,7 @@ export const worldList = [
   },
   {
     country: "Italy",
+    racial: "Italian",
     location: {
       top: "49.6%",
       left: "51%",
@@ -540,6 +551,7 @@ export const worldList = [
   },
   {
     country: "Canada",
+    racial: "Canadian",
     location: {
       top: "47%",
       left: "27.4%",
@@ -589,6 +601,7 @@ export const worldList = [
   },
   {
     country: "Norway",
+    racial: "Norwegian",
     location: {
       top: "40.5%",
       left: "49.7%",
@@ -638,6 +651,7 @@ export const worldList = [
   },
   {
     country: "Turkey",
+    racial: "Turkish",
     location: {
       top: "50%",
       left: "56%",
@@ -687,6 +701,7 @@ export const worldList = [
   },
   {
     country: "Germany",
+    racial: "German",
     location: {
       top: "44%",
       left: "51%",
@@ -736,6 +751,7 @@ export const worldList = [
   },
   {
     country: "Russia",
+    racial: "Russian",
     location: {
       top: "43.4%",
       left: "57%",
@@ -785,6 +801,7 @@ export const worldList = [
   },
   {
     country: "Nigeria",
+    racial: "Nigerian",
     location: {
       top: "61.4%",
       left: "49%",
@@ -834,6 +851,7 @@ export const worldList = [
   },
   {
     country: "Brazil",
+    racial: "Brazilian",
     location: {
       top: "70%",
       left: "33.8%",
@@ -883,6 +901,7 @@ export const worldList = [
   },
   {
     country: "Singapore",
+    racial: "Singapore",
     location: {
       top: "64%",
       left: "74.7%",
@@ -932,6 +951,7 @@ export const worldList = [
   },
   {
     country: "Mexican",
+    racial: "Mexican",
     location: {
       top: "57%",
       left: "20.7%",
@@ -981,6 +1001,7 @@ export const worldList = [
   },
   {
     country: "India",
+    racial: "Indian",
     location: {
       top: "54.3%",
       left: "68%",
@@ -1030,6 +1051,7 @@ export const worldList = [
   },
   {
     country: "Greece",
+    racial: "Greek",
     location: {
       top: "51.4%",
       left: "53.5%",
@@ -1079,6 +1101,7 @@ export const worldList = [
   },
   {
     country: "Japan",
+    racial: "Japanese",
     location: {
       top: "51.6%",
       left: "84.4%",
@@ -1128,6 +1151,7 @@ export const worldList = [
   },
   {
     country: "Spain",
+    racial: "Spanish",
     location: {
       top: "49.7%",
       left: "46%",
@@ -1177,6 +1201,7 @@ export const worldList = [
   },
   {
     country: "Taiwan",
+    racial: "Ukrainian",
     location: {
       top: "56.4%",
       left: "79%",
@@ -1226,6 +1251,7 @@ export const worldList = [
   },
   {
     country: "Ukraine",
+    racial: "Taiwan",
     location: {
       top: "46%",
       left: "55%",

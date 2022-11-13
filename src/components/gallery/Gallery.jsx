@@ -19,6 +19,9 @@ export default function Gallery() {
                 {data.map((d) => (
                     <div key={d.id} className="container">
                         <div className="item">
+
+                        </div>
+                        {/* <div className="item">
                             <div className="left">
                                 <div className="leftContainer">
                                     <div className="imgContainer">
@@ -34,7 +37,7 @@ export default function Gallery() {
                             <div className="right">
                                 <img src={d.img} alt="" />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 ))
                 }
