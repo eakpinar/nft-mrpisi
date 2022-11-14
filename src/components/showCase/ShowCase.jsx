@@ -67,7 +67,7 @@ export default function ShowCase() {
     return direction;
   }
   function randomSpeed() {
-    return Math.floor(Math.random() * (10 - 6)) + 6;
+    return Math.floor(Math.random() * (19 - 10)) + 10;
   }
 
   function getRandom(arr, n) {
@@ -87,8 +87,8 @@ export default function ShowCase() {
 
   return (
     <div className="showCase" id="showCase">
-      <h1>Gallery</h1>
-      {getRandom(worldList,4)
+      <h1>Gallery </h1>
+      {worldList
         .map((d) => (
           <InfiniteLooper speed={randomSpeed()} direction={randomDirection()}>
             {d.list.map((c) => (
