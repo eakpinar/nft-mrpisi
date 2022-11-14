@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/nft-mrpisi/static/css/main.fc089d31.chunk.css",
-    "main.js": "/nft-mrpisi/static/js/main.798f6911.chunk.js",
-    "main.js.map": "/nft-mrpisi/static/js/main.798f6911.chunk.js.map",
-    "runtime-main.js": "/nft-mrpisi/static/js/runtime-main.e8d602c8.js",
-    "runtime-main.js.map": "/nft-mrpisi/static/js/runtime-main.e8d602c8.js.map",
-    "static/js/2.f69b4f40.chunk.js": "/nft-mrpisi/static/js/2.f69b4f40.chunk.js",
-    "static/js/2.f69b4f40.chunk.js.map": "/nft-mrpisi/static/js/2.f69b4f40.chunk.js.map",
+    "main.css": "/nft-mrpisi/static/css/main.093080a1.css",
+    "main.js": "/nft-mrpisi/static/js/main.6482bdf1.js",
+    "static/media/1.jpg": "/nft-mrpisi/static/media/1.7285ce93f728404350df.jpg",
+    "static/media/paw2.png": "/nft-mrpisi/static/media/paw2.33d4c36d8c2d008157af.png",
+    "static/media/wave5.svg": "/nft-mrpisi/static/media/wave5.db52fd738f5667914230.svg",
+    "static/media/wave.svg": "/nft-mrpisi/static/media/wave.7ee32cf8d1975b0596cc.svg",
+    "static/media/wave3.svg": "/nft-mrpisi/static/media/wave3.546aa341261b631aff29.svg",
+    "static/media/wave4.svg": "/nft-mrpisi/static/media/wave4.b22110e7b7879a5cc179.svg",
+    "static/media/wave2.svg": "/nft-mrpisi/static/media/wave2.90a6bd98fa03a53327bd.svg",
     "index.html": "/nft-mrpisi/index.html",
-    "static/css/main.fc089d31.chunk.css.map": "/nft-mrpisi/static/css/main.fc089d31.chunk.css.map",
-    "static/js/2.f69b4f40.chunk.js.LICENSE.txt": "/nft-mrpisi/static/js/2.f69b4f40.chunk.js.LICENSE.txt",
-    "static/media/app.scss": "/nft-mrpisi/static/media/wave5.db52fd73.svg"
+    "main.093080a1.css.map": "/nft-mrpisi/static/css/main.093080a1.css.map",
+    "main.6482bdf1.js.map": "/nft-mrpisi/static/js/main.6482bdf1.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8d602c8.js",
-    "static/js/2.f69b4f40.chunk.js",
-    "static/css/main.fc089d31.chunk.css",
-    "static/js/main.798f6911.chunk.js"
+    "static/css/main.093080a1.css",
+    "static/js/main.6482bdf1.js"
   ]
 }
