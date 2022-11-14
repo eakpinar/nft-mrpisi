@@ -88,7 +88,7 @@ export default function ShowCase() {
   return (
     <div className="showCase" id="showCase">
       <h1>Gallery </h1>
-      {worldList
+      {worldList.filter(p=>p.country.includes("A"))
         .map((d) => (
           <InfiniteLooper speed={randomSpeed()} direction={randomDirection()}>
             {d.list.map((c) => (
