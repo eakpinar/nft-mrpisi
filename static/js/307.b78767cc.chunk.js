@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknft_mrpisi=self.webpackChunknft_mrpisi||[]).push([[307],{307:function(n,e,a){a.r(e),a.d(e,{default:function(){return c}});var s=a(184);function c(n){var e=n.oceanId;return(0,s.jsx)("div",{id:"ocean"+e,className:"ocean",children:(0,s.jsx)("div",{className:"wave"})})}}}]);
+//# sourceMappingURL=307.b78767cc.chunk.js.map
