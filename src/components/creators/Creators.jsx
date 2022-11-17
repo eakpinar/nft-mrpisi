@@ -4,7 +4,7 @@ import "./creators.scss"
 export default function Creators() {
     return (
         <div className="creators" id="creators">
-            <h1>Team</h1>
+            <h1>Teams</h1>
             <div className="container">
                 {team.map(d=>(
                     <div key={d.id} className={d.featured ? "card featured" : "card"}>

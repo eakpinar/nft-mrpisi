@@ -13,6 +13,7 @@ export default function Gallery() {
 
     return (
         <div className="gallery" id="gallery">
+            <h1>Roadmap</h1>
             <div className="slider" 
                 style= {{ transform:`translateX(-${currentSlide * 100}vw)` }}
             >    

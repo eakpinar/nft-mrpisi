@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .creators {
-  background-color: #e1e7e9;
+  background-color: crimson;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,9 +11,12 @@
   }
 
   h1 {
+    padding-bottom: 40px;
     font-size: 50px;
 
     @include mobile {
+
+      padding-bottom: 10px;
       font-size: 20px;
     }
   }
