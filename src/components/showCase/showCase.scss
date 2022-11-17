@@ -9,9 +9,10 @@
   padding: 16px;
   font-family: sans-serif;
   color: var(--offwhite);
-  background: linear-gradient(-45deg, #4c468b, #05031a);
+  background: #202020; //linear-gradient(-45deg, #4c468b, #05031a);
 
   h1 {
+    padding-bottom: 40px;
     font-size: 50px;
   }
 
@@ -38,6 +39,10 @@
 
   .looper__innerList[data-animate="true"] .looper__listInstance {
     animation: slideAnim linear infinite;
+    
+    // &:hover {
+    //   animation-play-state: paused;
+    // }
   }
 
   .looper__listInstance {
@@ -55,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 120px;
+    height: 240px;
     margin: 3px;
     // padding: 16px;
     font-weight: 600;
@@ -63,7 +68,7 @@
     border-radius: 16px;
   }
   .contentBlock--one {
-    width: 120px;
+    width: 240px;
     background: rgba(255, 255, 255, 0.05);
     font-weight: 600;
     font-size: 18px;

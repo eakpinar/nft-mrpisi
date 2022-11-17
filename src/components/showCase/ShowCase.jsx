@@ -2,8 +2,9 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import { useCallback } from "react";
 import { useState } from "react";
-import { worldList } from "../../Data/data4world";
+import { listImages } from "../../Data/dataShowcase";
 import "./showCase.scss";
+import { worldList } from "../../Data/data4world";
 
 const InfiniteLooper = function ShowCase({ speed, direction, children }) {
   const [looperInstances, setLooperInstances] = useState(1);
@@ -59,39 +60,39 @@ const InfiniteLooper = function ShowCase({ speed, direction, children }) {
   );
 };
 
+
 export default function ShowCase() {
+
   function randomDirection() {
     const texts = ["right", "left"];
     var direction = texts[Math.floor(Math.random() * texts.length)];
-    console.log({ direction });
     return direction;
   }
   function randomSpeed() {
-    return Math.floor(Math.random() * (19 - 10)) + 10;
+    return Math.floor(Math.random() * (70 - 10)) + 60;
   }
 
-  function getRandom(arr, n) {
-    var result = new Array(n),
-      len = arr.length,
-      taken = new Array(len);
-    if (n > len)
-      throw new RangeError("getRandom: more elements taken than available");
-    while (n--) {
-      var x = Math.floor(Math.random() * len);
-      result[n] = arr[x in taken ? taken[x] : x];
-      taken[x] = --len in taken ? taken[len] : len;
-    }
-    console.log({result})
-    return result;
-  }
+  // function getRandom(arr, n) {
+  //   var result = new Array(n),
+  //     len = arr.length,
+  //     taken = new Array(len);
+  //   if (n > len)
+  //     throw new RangeError("getRandom: more elements taken than available");
+  //   while (n--) {
+  //     var x = Math.floor(Math.random() * len);
+  //     result[n] = arr[x in taken ? taken[x] : x];
+  //     taken[x] = --len in taken ? taken[len] : len;
+  //   }
+  //   console.log({result})
+  //   return result;
+  // }
 
   return (
     <div className="showCase" id="showCase">
-      <h1>Gallery </h1>
-      {worldList.filter(p=>p.country.includes("A"))
-        .map((d) => (
+      <h1>Gallery</h1>
+      {listImages.map((d) => (
           <InfiniteLooper speed={randomSpeed()} direction={randomDirection()}>
-            {d.list.map((c) => (
+            {d.map((c) => (
               <div className="contentBlock contentBlock--one">
                 <img src={c.img} alt="" />
               </div>
