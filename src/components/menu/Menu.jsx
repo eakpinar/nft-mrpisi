@@ -1,4 +1,4 @@
-import { discordchannel, opensea } from "../../Data/links"
+import { opensea } from "../../Data/links"
 import "./menu.scss"
 
 export default function Menu({menuOpen, setMenuOpen}) {
@@ -28,7 +28,7 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 </li>
                 <li>
                     <div className="itemcontainer">
-                        <a href={discordchannel} target="_blank" className="discord" rel="noreferrer">Discord Channel</a>
+                        <a href={opensea} target="_blank" className="discord" rel="noreferrer">Discord Channel</a>
                     </div>
                 </li>
                 <li>
