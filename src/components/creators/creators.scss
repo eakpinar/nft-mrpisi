@@ -6,6 +6,9 @@
   flex-direction: column;
   align-items: center;
 
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+
   @include mobile {
     justify-content: space-around;
   }
@@ -89,6 +92,14 @@
               width: 30px;
               height: 30px;
             }
+          }
+          
+          &.right:active, &.right:hover {
+            filter: drop-shadow(0 0 0.15rem #1DA1F2);
+            cursor: pointer;
+          }
+          &.right:active {
+            filter: drop-shadow(0 0 0.15rem black);
           }
         }
       }

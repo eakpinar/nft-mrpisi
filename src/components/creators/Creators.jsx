@@ -11,7 +11,7 @@ export default function Creators() {
                         <div className="top">
                             <img src="assets/right-arrow.png" alt="" className="left" />
                             <img src={d.img} alt="" className="user"/>
-                            <img src={d.icon} alt="" className="right"/>
+                            <img src={d.icon} alt="" className="right" onClick={()=> window.open(d.url, "_blank")}/>
                         </div>
                         {/* <div className="center">
                             {d.desc}
