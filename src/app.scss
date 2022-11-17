@@ -4,7 +4,7 @@
     .sections {
         width: 100%;
         // height: calc(100vh - 70px);
-        background-color: white;
+        background-color: black;
         position: relative;
         // top: 70px;
         scroll-behavior: smooth;
@@ -28,5 +28,27 @@
             left:0;
             // background: lightsalmon;
         }
+    }
+    .pos-center {
+        position: fixed;
+        top: calc(50% - 40px);
+        left: calc(50% - 40px);
+        .loader {
+            border: 10px solid #f3f3f3;
+            border-top: 10px solid #db3434;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            animation: spin 1s linear infinite;
+          }
+    
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
     }
 }
