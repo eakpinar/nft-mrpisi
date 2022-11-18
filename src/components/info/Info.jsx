@@ -16,7 +16,7 @@ export default function Info() {
     <div className="info" id="info">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/pisinft.png" alt=""></img>
+          <img src="assets/nfting.gif" alt=""></img>
         </div>
       </div>
       <div className="right">

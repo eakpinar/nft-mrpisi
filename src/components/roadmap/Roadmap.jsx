@@ -13,7 +13,6 @@ export default function Roadmap() {
 
     return (
         <div className="roadmap" id="roadmap">
-            <h1>Roadmap</h1>
             <div className="slider" 
                 style= {{ transform:`translateX(-${currentSlide * 100}vw)` }}
             >    

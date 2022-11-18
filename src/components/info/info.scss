@@ -22,13 +22,15 @@
             justify-content: center;
             float: right;
 
+            padding: 20px;
+
             @include mobile {
                 align-items: flex-start;
             }
 
             img{
-                height: 90%;
-
+                height: 100%;
+                border-radius: 50%;
                 @include mobile {
                     height: 250px;
                 }

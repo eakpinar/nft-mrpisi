@@ -9,10 +9,11 @@ import React, { Suspense } from "react"
 
 const Welcome = React.lazy(() => import("./components/welcome/Welcome"))
 const Creators = React.lazy(() => import("./components/creators/Creators"))
-const Nft = React.lazy(() => import("./components/nft/Nft"))
+const Info = React.lazy(() => import("./components/info/Info"))
 const Roadmap = React.lazy(() => import("./components/roadmap/Roadmap"))
 const Ocean = React.lazy(() => import("./components/ocean/Ocean"))
 const ShowCase = React.lazy(() => import("./components/showCase/ShowCase"))
+const Nft = React.lazy(() => import("./components/nft/Nft"))
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
         <div className="sections" /*onClick={()=>setMenuOpen(false)}*/>
           <Welcome />
           <Ocean oceanId={1} />
+          <Info />
           <Nft />
-          <Ocean oceanId={2} />
           <Roadmap />
           <Ocean oceanId={3} />
           <ShowCase />

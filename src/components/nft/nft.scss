@@ -1,97 +1,35 @@
 @import "../../global.scss";
 
 .nft {
-    background-color: #b6d0d8;
+  background-image: url(../../../public/assets/nft.svg);
+  height: 1000px;
+
+  .items {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
 
-    @include mobile {
-        flex-direction: column;
-        align-items: center ;
+    .item {
+      width: 1000px;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      overflow: inherit;
+      top: 150px;
+
+      img {
+        width: 100%;
+      }
     }
-
-    .left{
-        flex:0.4;
-        overflow: hidden;
-        .imgContainer{
-            width: 700px;
-            height: 700px;
-            background-color: crimson;
-            border-radius: 50%;
-            display: flex;
-            // align-items: center;
-            justify-content: center;
-            float: right;
-
-            @include mobile {
-                align-items: flex-start;
-            }
-
-            img{
-                height: 90%;
-
-                @include mobile {
-                    height: 250px;
-                }
-            }
-        }
+  }
+  .nftloading {
+    width: 359px;
+    padding: 20px;
+    img {
+      width: 100%;
     }
-    .right{
-        flex:0.5;
-        position: relative;
-        .wrapper{
-            width: 90%;
-            // height: 80%;
-            padding-left: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            @include mobile {
-                padding-left: 0;
-                align-items: center;
-            }
-
-            h1{
-                font-size: 60px;
-                margin: 10px 0;
-                @include mobile {
-                    font-size: 40px;
-                }
-
-
-                span{
-                    font-size: inherit;
-                    color: crimson;
-                    @include mobile {
-                        font-size: 40px;
-                    }
-                }
-                .ityped-cursor{
-                    animation: blink 1s infinite;
-                }
-                @keyframes blink {
-                    50%{
-                        opacity: 1;
-                    }
-                    100%{
-                        opacity: 0;
-                    }
-                }
-            }
-            h2{
-                font-size: 35px;
-
-                @include mobile {
-                    font-size: 20px;
-                }
-            }
-            h3{
-                font-size: 30px;
-
-                @include mobile {
-                    font-size: 20px;
-                }
-            }
-        }
-    }
+  }
 }
