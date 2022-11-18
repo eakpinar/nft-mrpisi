@@ -1,3 +1,97 @@
+@import "../../global.scss";
+
 .info {
-    background-color:lightpink;
+    background-color: #b6d0d8;
+    display: flex;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    .left{
+        flex:0.4;
+        overflow: hidden;
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            background-color: crimson;
+            border-radius: 50%;
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+            float: right;
+
+            @include mobile {
+                align-items: flex-start;
+            }
+
+            img{
+                height: 90%;
+
+                @include mobile {
+                    height: 250px;
+                }
+            }
+        }
+    }
+    .right{
+        flex:0.5;
+        position: relative;
+        .wrapper{
+            width: 90%;
+            // height: 80%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include mobile {
+                padding-left: 0;
+                align-items: center;
+            }
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                @include mobile {
+                    font-size: 40px;
+                }
+
+
+                span{
+                    font-size: inherit;
+                    color: crimson;
+                    @include mobile {
+                        font-size: 40px;
+                    }
+                }
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+            }
+            h2{
+                font-size: 35px;
+
+                @include mobile {
+                    font-size: 20px;
+                }
+            }
+            h3{
+                font-size: 30px;
+
+                @include mobile {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }
