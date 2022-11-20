@@ -26,6 +26,7 @@
 
             @include mobile {
                 align-items: flex-start;
+                height: 250px;
             }
 
             img{
@@ -49,7 +50,7 @@
             justify-content: center;
 
             @include mobile {
-                padding-left: 0;
+                padding-left: 5%;
                 align-items: center;
             }
 

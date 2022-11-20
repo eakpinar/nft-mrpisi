@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .showCase {
   --green: #59c3c3;
   --offwhite: #ebebeb;
@@ -39,7 +41,7 @@
 
   .looper__innerList[data-animate="true"] .looper__listInstance {
     animation: slideAnim linear infinite;
-    
+
     // &:hover {
     //   animation-play-state: paused;
     // }
@@ -66,12 +68,18 @@
     font-weight: 600;
     text-align: center;
     border-radius: 16px;
+    @include mobile {
+      height: 100px;
+    }
   }
   .contentBlock--one {
     width: 240px;
     background: rgba(255, 255, 255, 0.05);
     font-weight: 600;
     font-size: 18px;
+    @include mobile {
+      width: 100px;
+    }
   }
   .contentBlock--one:last-of-type {
     color: var(--green);

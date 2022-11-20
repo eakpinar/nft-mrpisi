@@ -4,6 +4,10 @@
   background-image: url(../../../public/assets/nft.svg);
   height: 1000px;
 
+  @include mobile {
+    height: 500px;
+  }
+
   .items {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,12 @@
       top: 150px;
 
       img {
+        width: 100%;
+      }
+
+      @include mobile {
+        flex-direction: column;
+        align-items: center;
         width: 100%;
       }
     }

@@ -1,54 +1,60 @@
+@import "/src/global.scss";
+
 .app {
-    height:100vh;
+  height: 100vh;
 
-    .sections {
-        width: 100%;
-        // height: calc(100vh - 70px);
-        background-color: black;
-        position: relative;
-        // top: 70px;
-        scroll-behavior: smooth;
-        scroll-snap-type: y mandatory;
-        scrollbar-width: none;//for firefox
-        &::-webkit-scrollbar{
-            display: none;
-        }
-
-        > *{
-            width: 100vw;
-            // height: calc(100vh - 70px);
-            scroll-snap-align: start;
-        }
-
-        .ocean { 
-            height: auto;
-            width:100%;
-            // position:absolute;
-            bottom:0;
-            left:0;
-            // background: lightsalmon;
-        }
+  .sections {
+    width: 100%;
+    // height: calc(100vh - 70px);
+    background-color: black;
+    position: relative;
+    // top: 70px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for firefox
+    &::-webkit-scrollbar {
+      display: none;
     }
-    .pos-center {
-        position: fixed;
-        top: calc(50% - 40px);
-        left: calc(50% - 40px);
-        .loader {
-            border: 10px solid #f3f3f3;
-            border-top: 10px solid #db3434;
-            border-radius: 50%;
-            width: 80px;
-            height: 80px;
-            animation: spin 1s linear infinite;
-          }
-    
-          @keyframes spin {
-            0% {
-              transform: rotate(0deg);
-            }
-            100% {
-              transform: rotate(360deg);
-            }
-          }
+
+    > * {
+      width: 100vw;
+      // height: calc(100vh - 70px);
+      scroll-snap-align: start;
     }
+
+    .ocean {
+      height: auto;
+      width: 100%;
+      // position:absolute;
+      bottom: 0;
+      left: 0;
+      // background: lightsalmon;
+    }
+
+    @include mobile {
+      padding-bottom: 70px;
+    }
+  }
+  .pos-center {
+    position: fixed;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    .loader {
+      border: 10px solid #f3f3f3;
+      border-top: 10px solid #db3434;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
 }
