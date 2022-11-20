@@ -1,6 +1,6 @@
 import "./welcome.scss";
 import { useState } from "react";
-import { InfoBox } from "../infoBox/InfoBox";
+import { WorldBox } from "../worldBox/worldBox";
 import { instagram, opensea, twitter } from "../../Data/links";
 
 export default function Welcome() {
@@ -76,7 +76,7 @@ export default function Welcome() {
           onClick={() => openMap(true)}
         >
             <div id="world" className="world">
-              <InfoBox
+              <WorldBox
                 show={showInfo1}
                 onClickOutside={() => {
                   openMap(false);

@@ -1,29 +1,49 @@
-import React from "react"
-import "./topbar.scss"
-import { discordchannel, opensea } from "../../Data/links"
+import React from "react";
+import "./topbar.scss";
+import { instagram, opensea, twitter } from "../../Data/links";
 
-export default function Topbar({menuOpen, setMenuOpen}) {
+export default function Topbar() {
+  return (
+    <div className="topbar">
+      <div className="wrapper">
+        <div className="left">
+          <div className="itemcontainer">
+            <img
+              id="twitter"
+              src="assets/social/twitter.png"
+              alt=""
+              className="social twitterLogo"
+              onClick={() => window.open(twitter, " _blank")}
+            />
+          </div>
+          <div className="itemcontainer">
+            <img
+              id="instagram"
+              src="assets/social/instagram.png"
+              alt=""
+              className="social instagramLogo"
+              onClick={() => window.open(instagram, "_blank")}
+            />
+          </div>
+          <div className="itemcontainer">
+            <img
+              id="opensea"
+              src="assets/social/opensea.png"
+              alt=""
+              className="social openseaLogo"
+              onClick={() => window.open(opensea, "_blank")}
+            />
+          </div>
+        </div>
 
-    return (
-        <div className={"topbar " + (menuOpen && "active")}>
-            <div className="wrapper">
-                <div className="left">
-                    <a href="#info" className="logo">Mr. Pisi</a>
-                    <div className="itemcontainer">
-                        <a href={discordchannel} target="_blank" rel="noreferrer" className="discord">Discord Channel</a>
-                    </div>
-                    <div className="itemcontainer">
-                        <a href={opensea} target="_blank" rel="noreferrer" className="opensea">Buy a pisi</a>
-                    </div>
-                </div>
-                <div className="right">
+        {/* <div className="right">
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
                         <span className="line2"></span>
                         <span className="line3"></span>
                     </div>
-                </div>
-            </div>
-        </div>
-    )
+                </div> */}
+      </div>
+    </div>
+  );
 }

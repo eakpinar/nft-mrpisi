@@ -1,96 +1,10 @@
 .worldMap {
   // background-color: black;
   overflow: inherit;
-  .description {
-    max-width: 600px;
-    margin: 0 auto;
-    color: rgba(229, 229, 229, 0.7);
-  }
-
-  div,
-  img,
-  footer {
+  div {
     position: relative;
     box-sizing: border-box;
     overflow: inherit;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
-    font-weight: 300;
-  }
-
-  h1 {
-    font-size: 36pt;
-  }
-
-  h2 {
-    font-size: 24pt;
-  }
-
-  h3 {
-    font-size: 18pt;
-  }
-
-  h4 {
-    font-size: 16pt;
-  }
-
-  h5 {
-    font-size: 14pt;
-  }
-
-  h6 {
-    font-size: 12pt;
-  }
-
-  p {
-    font-size: 12pt;
-    margin-bottom: 12pt;
-  }
-
-  strong {
-    font-weight: 900;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
-    color: #e5e5e5;
-  }
-
-  a {
-    transition: color 0.25s ease-in-out;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #dff3fd;
-  }
-  a:visited {
-    color: #dff3fd;
-  }
-  li.active a,
-  a:hover,
-  a:active {
-    color: #e5e5e5;
-  }
-
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .centered-y {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    overflow-x: scroll;
   }
 
   .distribution-map {
@@ -105,6 +19,8 @@
     position: relative;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
+    border-style: solid;
   }
   .distribution-map .map-point {
     // cursor: pointer;
@@ -134,8 +50,30 @@
     background-size: 15px;
     background-position: center;
     border: 0px solid #7fcff7;
-    span {
+
+    .content {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      transition: opacity 0.25s ease-in-out;
+      width: 100%;
+      height: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+      overflow: overlay;
       display: none;
+
+      .centered-y {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        overflow-x: scroll;
+      }
+
+      img {
+        height: 100%;
+        width: 150px;
+      }
     }
   }
 
@@ -144,21 +82,7 @@
     background-size: 20px;
     cursor: pointer;
   }
-  
-  .distribution-map .map-point .content {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-    transition: opacity 0.25s ease-in-out;
-    width: 100%;
-    height: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow: overlay;
-  }
-  .distribution-map .map-point .content img {
-    height: 100%;
-    width: 150px;
-  }
+
   .distribution-map .map-point:active,
   .distribution-map .map-point:focus {
     margin: 0;
@@ -172,29 +96,26 @@
     transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out,
       height 0.25s ease-in-out;
     background: rgba(26, 26, 26, 0.85);
-    span {
+    cursor: default;
+
+    .content {
+      filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+      opacity: 1;
+      -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
+        overflow 0.25s ease-in-out;
+      -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
+        overflow 0.25s ease-in-out;
+      -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out,
+        overflow 0.25s ease-in-out;
+      transition-delay: 0.25s, 0s, 0s;
+      transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
+        overflow 0.25s ease-in-out;
+      overflow: hidden;
       display: block;
+
+      img {
+        cursor: pointer;
+      }
     }
-  }
-  .distribution-map .map-point:active .content,
-  .distribution-map .map-point:focus .content {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-    -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
-      overflow 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
-      overflow 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out,
-      overflow 0.25s ease-in-out;
-    transition-delay: 0.25s, 0s, 0s;
-    transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
-      overflow 0.25s ease-in-out;
-    overflow: hidden;
-  }
-  .distribution-map .map-point:active .content a:hover,
-  .distribution-map .map-point:active .content a:active,
-  .distribution-map .map-point:focus .content a:hover,
-  .distribution-map .map-point:focus .content a:active {
-    color: #afe1fa;
   }
 }
