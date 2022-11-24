@@ -3,7 +3,7 @@ import { useState } from "react";
 import { WorldBox } from "../worldBox/worldBox";
 import { instagram, opensea, twitter } from "../../Data/links";
 
-export default function Welcome() {
+export default function Welcome({ isMobile }) {
   const [top, setTop] = useState("30.5%");
   const [left, setLeft] = useState("42%");
   const [width, setWidth] = useState("32%");
@@ -81,6 +81,7 @@ export default function Welcome() {
                 onClickOutside={() => {
                   openMap(false);
                 }}
+                isMobile = {isMobile}
               />
             </div>
         </div>

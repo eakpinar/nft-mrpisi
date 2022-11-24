@@ -8,21 +8,10 @@
   position: relative;
   height: 50vw;
 
-  @include mobile {
-    height: 2000px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-
   h1 {
     padding-bottom: 40px;
     font-size: 50px;
     height: -webkit-fill-available;
-
-    @include mobile {
-      padding-bottom: 10px;
-      font-size: 20px;
-    }
   }
   .arrow {
     height: 50px;
@@ -30,10 +19,6 @@
     cursor: pointer;
     background-color: #ed143dcf;
     border-radius: 50%;
-
-    @include mobile {
-      display: none;
-    }
 
     &.left {
       left: 100px;
@@ -52,22 +37,11 @@
     left: 0;
     transition: all 1s ease-out;
 
-    @include mobile {
-      flex-direction: column;
-      flex-wrap: wrap;
-      height: auto;
-      justify-content: space-around;
-    }
-
     .container {
       width: 100vw;
       display: flex;
       align-items: center;
       justify-content: center;
-
-      @include mobile {
-        height: 250px;
-      }
 
       .item {
         width: 1000px;
@@ -80,12 +54,6 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        @include mobile {
-        //   width: 80%;
-          height: auto;
-          margin: 0;
-          background-position: 50%;
-        }
 
         h4 {
           color: darkslategrey;
@@ -111,11 +79,6 @@
             flex-direction: column;
             justify-content: space-between;
 
-            @include mobile {
-              width: 100%;
-              height: 100%;
-            }
-
             .imgContainer {
               width: 80px;
               height: 80px;
@@ -125,35 +88,19 @@
               align-items: center;
               justify-content: center;
 
-              @include mobile {
-                width: 20px;
-                height: 20px;
-              }
-
               img {
                 width: 100px;
                 border-style: solid;
                 border-width: 1px 0px 1px 0px;
-
-                @include mobile {
-                  width: 10px;
-                  height: 10px;
-                }
               }
             }
 
             h2 {
               font-size: 20px;
-              @include mobile {
-                font-size: 13px;
-              }
             }
 
             p {
               font-size: 13px;
-              @include mobile {
-                display: none;
-              }
             }
             span {
               font-size: 12px;
@@ -173,6 +120,50 @@
           // img {
           //     width: 400px;
           // }
+        }
+      }
+    }
+  }
+}
+
+.roadmapmobile {
+  .container {
+    background-color: #e1e7e9;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px -8px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      background-color: transparent;
+      padding-top: 20px;
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-left: 2%;
+    padding-right: 2%;
+
+        img {
+          &.user {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            margin: 0 30px;
+            border-style: groove;
+            border-radius: 3%;
+          }
         }
       }
     }

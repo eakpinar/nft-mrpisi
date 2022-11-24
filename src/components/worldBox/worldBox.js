@@ -4,7 +4,7 @@ import './worldBox.scss';
 
 export function WorldBox(props) {
   const ref = useRef(null);
-  const { onClickOutside } = props;
+  const { onClickOutside, isMobile } = props;
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -23,6 +23,6 @@ export function WorldBox(props) {
 
   return (
     <div ref={ref} className='world-box'>
-      <WorldMap></WorldMap>
+      <WorldMap isMobile = {isMobile}></WorldMap>
     </div> );
 }

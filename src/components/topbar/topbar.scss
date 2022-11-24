@@ -12,7 +12,7 @@
   @include mobile {
     position: fixed;
     bottom: 0;
-    top:auto;
+    top: auto;
     background-color: transparent;
   }
 
@@ -30,6 +30,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        border-radius: 50%;
 
         img {
           width: 50px;
@@ -38,6 +39,19 @@
           padding: 0;
           overflow: inherit;
         }
+      }
+
+      .itemcontainer .social {
+        filter: drop-shadow(0 0 0.75rem #d6501b);
+      }
+
+      .itemcontainer .social:active,
+      .itemcontainer .social:hover {
+        filter: drop-shadow(0 0 0.75rem #4dfe00);
+        cursor: pointer;
+      }
+      .itemcontainer .social:active {
+        filter: drop-shadow(0 0 0.75rem black);
       }
     }
 

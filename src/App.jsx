@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar"
 // import Characters from "./components/characters/Characters"
 import "./app.scss"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 // import Menu from "./components/menu/Menu"
 // import Testimonials from "./components/testimonials/Testimonials"
 import React, { Suspense } from "react"
@@ -18,16 +18,32 @@ const Nft = React.lazy(() => import("./components/nft/Nft"))
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
+
+
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
+
   return (
     <div className="app">
       {/* <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
       <Suspense fallback={<div className="pos-center"><div className="loader"></div></div>}>
         <div className="sections" /*onClick={()=>setMenuOpen(false)}*/>
-          <Welcome />
+          <Welcome isMobile={isMobile}/>
           <Ocean oceanId={1} />
           <Info />
           <Nft />
-          <Roadmap />
+          <Roadmap isMobile={isMobile} />
           <Ocean oceanId={3} />
           <ShowCase />
           <Ocean oceanId={4} />
