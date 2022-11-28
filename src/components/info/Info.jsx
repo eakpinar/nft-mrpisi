@@ -1,4 +1,4 @@
-import "./info.scss"
+import "./info.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
@@ -30,18 +30,26 @@ export default function Info() {
             Hello! I’m a cat, a traveler cat! But you can just call me as
             “meow”. I’m not pretty sure if I’ll respond you, because most of the
             time I wander around drunk. Believe me, sometimes I can’t even do
-            catwalk on a straight line.
+            catwalk on a straight line. I love alcohol and traveling. As I
+            traveled from country to country, I drank alcohol and took my own
+            pictures that I liked most. 11.500 pieces exactly!
             <br />
+            The biggest part of the Project is the <b>mobile game</b> that we are going
+            to create. The incomes of the mobile game are going to be divided to
+            the wallets of the Mr. Traveller CAt NFT holders.
             <br />
-            I love alcohol and traveling. As I traveled from country to
-            country, I drank alcohol and took my own pictures that I liked most.
+            While I was traveling, unfortunately I found that many stray animals
+            on earth need my help and I want to help them.
+            <br />
+            You can do me a favor by buying these photos. Because you are all
+            good people, but there are things I’m good at too, especially in
+            march! ;) 
+            <br />
+            I’m going to use most of the incomes of this project for the stray
+            animals that need help from all over the world each year in march.
+            <br />
+            But first, I got to finish my glass.
           </h3>
-          <br />
-          <br />
-
-          Mr. Pisi is a collection of artworks you can digitally own. By owning
-          an NFT, you can also have many future utilities. Join us to be part of
-          a unique community!
         </div>
       </div>
     </div>

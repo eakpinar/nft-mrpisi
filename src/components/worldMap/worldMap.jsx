@@ -58,19 +58,6 @@ export default function WorldMap({ isMobile }) {
                   <table>
                     <tbody>
                       <tr>
-                        {/* <td>
-                          <img
-                            src="assets/right-arrow.png"
-                            alt=""
-                            onClick={() =>
-                              window.open(
-                                "https://opensea.io/collection/drunkcat-mrpisi-collection?search[stringTraits][0][name]=Country&search[stringTraits][0][values][0]=" +
-                                  d.racial,
-                                "_blank"
-                              )
-                            }
-                          ></img>
-                        </td> */}
                         {d.list.map((c) => (
                           <td key={c.id}>
                             <img
@@ -78,7 +65,7 @@ export default function WorldMap({ isMobile }) {
                               alt=""
                               onClick={() =>
                                 window.open(
-                                  "https://opensea.io/collection/drunkcat-mrpisi-collection?search[stringTraits][0][name]=Country&search[stringTraits][0][values][0]=" +
+                                  "https://opensea.io/collection/mrtravellercat?search[stringTraits][0][name]=Country&search[stringTraits][0][values][0]=" +
                                     d.racial,
                                   "_blank"
                                 )
@@ -105,7 +92,7 @@ export default function WorldMap({ isMobile }) {
               }}
               onClick={() =>
                 window.open(
-                  "https://opensea.io/collection/drunkcat-mrpisi-collection?search[stringTraits][0][name]=Country&search[stringTraits][0][values][0]=" +
+                  "https://opensea.io/collection/mrtravellercat?search[stringTraits][0][name]=Country&search[stringTraits][0][values][0]=" +
                     d.racial,
                   "_blank"
                 )

@@ -4,7 +4,6 @@ import { useCallback } from "react";
 import { useState } from "react";
 import { listImages } from "../../Data/dataShowcase";
 import "./showCase.scss";
-import { worldList } from "../../Data/data4world";
 
 const InfiniteLooper = function ShowCase({ speed, direction, children }) {
   const [looperInstances, setLooperInstances] = useState(1);
