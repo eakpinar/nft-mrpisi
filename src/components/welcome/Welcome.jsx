@@ -2,6 +2,8 @@ import "./welcome.scss";
 import { useState } from "react";
 import { WorldBox } from "../worldBox/worldBox";
 import { instagram, opensea, twitter } from "../../Data/links";
+import UseAnalyticsEventTracker from  "../../helper/useAnalyticsEventTracker";
+
 
 export default function Welcome({ isMobile }) {
   const [top, setTop] = useState("30.5%");
@@ -20,6 +22,7 @@ export default function Welcome({ isMobile }) {
         setHeight("88%")
         setShowInfo1(true)
         setCursor("")
+        UseAnalyticsEventTracker('Show World Map');
     } else {
 
       setTop("30.5%");

@@ -7,7 +7,7 @@ export default function Nft() {
         <div id="countrylist" className="item">
           <img
             id="nfting"
-            src="assets/countryParts.png"
+            src="assets/countryParts2.png"
             alt=""
             className="nfting"
           />
