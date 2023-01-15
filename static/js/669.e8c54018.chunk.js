@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknft_mrpisi=self.webpackChunknft_mrpisi||[]).push([[669],{669:function(s,n,i){i.r(n),i.d(n,{default:function(){return e}});var t=i(184);function e(){return(0,t.jsx)("div",{className:"nft",id:"nft",children:(0,t.jsx)("div",{className:"items",children:(0,t.jsx)("div",{id:"countrylist",className:"item",children:(0,t.jsx)("img",{id:"nfting",src:"assets/countryParts2.png",alt:"",className:"nfting"})})})})}}}]);
+//# sourceMappingURL=669.e8c54018.chunk.js.map
